@@ -1,0 +1,13 @@
+: 1
+name: Vulkan-Headers
+version: 0.1.0-a.0.z
+summary: Vulkan Header files
+license: Apache-2.0 ; Apache License 2.0
+description-file: upstream/README.md
+src-url: https://github.com/KhronosGroup/Vulkan-Headers
+doc-url: https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/
+email: wmbat@protonmail.com
+package-email: wmbat@protonmail.com
+
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0

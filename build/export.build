@@ -1,0 +1,6 @@
+$out_root/
+{
+  include vulkan/
+}
+
+export $out_root/vulkan/$import.target
