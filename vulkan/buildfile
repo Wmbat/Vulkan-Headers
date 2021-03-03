@@ -26,7 +26,7 @@ lib{Vulkan-Headers}:
   cxx.export.libs = $intf_libs
 }
 
-# Install into the Vulkan-Headers/ subdirectory of, say, /usr/include/
+# Install into the vulkan/ subdirectory of, say, /usr/include/
 # recreating subdirectories.
 #
 {hxx}{*}:
