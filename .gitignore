@@ -23,3 +23,11 @@
 *.exe.dlls/
 *.exe.manifest
 *.pc
+
+# Local files
+#
+compile_commands.json
+
+# Local folders
+#
+.cache/
