@@ -1,0 +1,25 @@
+intf_libs = # Interface dependencies.
+import intf_libs += Vulkan-Headers%lib{Vulkan-Headers}
+
+lib{Vulkan-Hpp}: hxx{**} $intf_libs
+
+# Build options.
+#
+cxx.poptions =+ "-I$out_root" "-I$src_root" "-I$src_base/include"
+
+# Export options.
+#
+lib{Vulkan-Hpp}:
+{
+  cxx.export.poptions = "-I$out_root" "-I$src_root" "-I$src_base/include"
+  cxx.export.libs = $intf_libs
+}
+
+# Install into the Vulkan-Headers/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+hxx{*}:
+{
+  install         = include/Vulkan-Hpp/
+  install.subdirs = true
+}

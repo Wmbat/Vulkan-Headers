@@ -1,0 +1,3 @@
+import libs = Vulkan-Hpp%lib{Vulkan-Hpp}
+
+exe{driver}: {hxx cxx}{**} $libs testscript{**}

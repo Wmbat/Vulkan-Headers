@@ -1,3 +1,0 @@
-# Vulkan-Headers
-
-C library

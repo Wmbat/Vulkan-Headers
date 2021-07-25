@@ -1,12 +1,11 @@
 : 1
-name: Vulkan-Headers
-version: 0.1.0-a.0.z
-summary: Vulkan-Headers C library
-license: other: proprietary ; Not free/open source.
+name: Vulkan-Hpp
+version: 1.2.185
+summary: Vulkan-Headers C++ API
+license: Apache-2.0         ; Apache License 2.0
 description-file: README.md
 url: https://example.org/Vulkan-Headers
 email: wmbat@protonmail.com
 #build-error-email: wmbat@protonmail.com
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
-#depends: libhello ^1.0.0

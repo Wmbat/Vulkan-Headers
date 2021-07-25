@@ -1,0 +1,25 @@
+intf_libs = # Interface dependencies.
+#import xxxx_libs += libhello%lib{hello}
+
+lib{Vulkan-Headers}: h{**} $intf_libs
+
+# Build options.
+#
+c.poptions =+ "-I$out_root" "-I$src_root" "-I$src_base/include"
+
+# Export options.
+#
+lib{Vulkan-Headers}:
+{
+  c.export.poptions = "-I$out_root" "-I$src_root" "-I$src_base/include"
+  c.export.libs = $intf_libs
+}
+
+# Install into the Vulkan-Headers/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+h{*}:
+{
+  install         = include/Vulkan-Headers/
+  install.subdirs = true
+}

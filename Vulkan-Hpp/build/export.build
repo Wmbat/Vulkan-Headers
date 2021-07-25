@@ -1,0 +1,6 @@
+$out_root/
+{
+  include Vulkan-Hpp/
+}
+
+export $out_root/Vulkan-Hpp/$import.target
