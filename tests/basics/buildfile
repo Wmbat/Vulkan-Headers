@@ -1,0 +1,3 @@
+import libs = Vulkan-Headers%lib{Vulkan-Headers}
+
+exe{driver}: {h c}{**} $libs testscript{**}

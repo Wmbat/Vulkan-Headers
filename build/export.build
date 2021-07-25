@@ -1,0 +1,6 @@
+$out_root/
+{
+  include Vulkan-Headers/
+}
+
+export $out_root/Vulkan-Headers/$import.target
