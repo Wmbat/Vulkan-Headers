@@ -9,3 +9,5 @@ email: wmbat@protonmail.com
 #build-error-email: wmbat@protonmail.com
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
+
+depends: Vulkan-Headers == 1.2.185
