@@ -20,6 +20,6 @@ lib{Vulkan-Hpp}:
 #
 hxx{*}:
 {
-  install         = include/Vulkan-Hpp/
+  install         = include/
   install.subdirs = true
 }
