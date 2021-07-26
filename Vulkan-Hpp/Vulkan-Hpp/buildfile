@@ -18,8 +18,11 @@ lib{Vulkan-Hpp}:
 # Install into the Vulkan-Headers/ subdirectory of, say, /usr/include/
 # recreating subdirectories.
 #
-hxx{*}:
+include/
 {
-  install         = include/
-  install.subdirs = true
+  hxx{*}:
+  {
+    install         = include/
+    install.subdirs = true
+  }
 }
