@@ -20,6 +20,6 @@ lib{Vulkan-Headers}:
 #
 h{*}:
 {
-  install         = include
+  install         = include/
   install.subdirs = true
 }
