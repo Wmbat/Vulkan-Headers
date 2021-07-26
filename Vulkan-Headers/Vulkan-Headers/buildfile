@@ -18,8 +18,11 @@ lib{Vulkan-Headers}:
 # Install into the Vulkan-Headers/ subdirectory of, say, /usr/include/
 # recreating subdirectories.
 #
-h{*}:
+include/
 {
-  install         = include/
-  install.subdirs = true
+  h{*}:
+  {
+    install         = include/
+    install.subdirs = true
+  }
 }
