@@ -1,10 +1,10 @@
 : 1
 version: 1.2.185
 summary: Vulkan-Headers C++ library
-topics: Graphics API c++
+topics: Graphics, API, c++
 license: Apache-2.0         ; Apache License 2.0
 description-file: README.md
-url: https://github.com/KhronosGroup/Vulkan-Headers
+src-url: https://github.com/KhronosGroup/Vulkan-Headers
 package-email: wmbat@protonmail.com
 
 requires: c++ >= 11
