@@ -5,13 +5,13 @@ lib{Vulkan-Headers}: h{**} $intf_libs
 
 # Build options.
 #
-c.poptions =+ "-I$out_root" "-I$src_root" "-I$src_base/include"
+c.poptions =+ "-I$src_base/include"
 
 # Export options.
 #
 lib{Vulkan-Headers}:
 {
-  c.export.poptions = "-I$out_root" "-I$src_root" "-I$src_base/include"
+  c.export.poptions = "-I$src_base/include"
   c.export.libs = $intf_libs
 }
 

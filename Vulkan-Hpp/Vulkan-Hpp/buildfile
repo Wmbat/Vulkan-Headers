@@ -5,13 +5,13 @@ lib{Vulkan-Hpp}: hxx{**} $intf_libs
 
 # Build options.
 #
-cxx.poptions =+ "-I$out_root" "-I$src_root" "-I$src_base/include"
+cxx.poptions =+ "-I$src_base/include"
 
 # Export options.
 #
 lib{Vulkan-Hpp}:
 {
-  cxx.export.poptions = "-I$out_root" "-I$src_root" "-I$src_base/include"
+  cxx.export.poptions = "-I$src_base/include"
   cxx.export.libs = $intf_libs
 }
 
