@@ -1,0 +1,6 @@
+: 1
+name: Vulkan-Hpp
+version: 1.2.185
+project: Vulkan-Headers
+summary: Vulkan-Headers C++ library
+license: Apache-2.0; Apache License 2.0
