@@ -1,0 +1,6 @@
+: 1
+name: Vulkan-Headers
+version: 1.3.216
+project: Vulkan-Headers
+summary: The C headers for the Vulkan graphics API
+license: Apache-2.0; Apache License 2.0
