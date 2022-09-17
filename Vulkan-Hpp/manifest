@@ -1,8 +1,8 @@
 : 1
 name: Vulkan-Hpp
-version: 1.3.204
+version: 1.3.211
 project: Vulkan-Headers
-summary: Vulkan-Headers C++ library
+summary: The C++ headers for the Vulkan graphics API
 topics: Graphics, API, c++, Vulkan
 license: Apache-2.0         ; Apache License 2.0
 description-file: README.md
@@ -11,7 +11,7 @@ package-email: wmbat@protonmail.com
 
 requires: c++ >= 11
 
-depends: * build2 >= 0.13.0
-depends: * bpkg >= 0.13.0
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
 
-depends: Vulkan-Headers == 1.3.204
+depends: Vulkan-Headers == 1.3.211
