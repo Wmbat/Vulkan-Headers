@@ -1,6 +1,6 @@
 : 1
 name: Vulkan-Hpp
-version: 1.3.211
+version: 1.3.216
 project: Vulkan-Headers
 summary: The C++ headers for the Vulkan graphics API
 topics: Graphics, API, c++, Vulkan
@@ -14,4 +14,4 @@ requires: c++ >= 11
 depends: * build2 >= 0.14.0
 depends: * bpkg >= 0.14.0
 
-depends: Vulkan-Headers == 1.3.211
+depends: Vulkan-Headers == 1.3.216
